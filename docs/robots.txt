@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cucupac.github.io/personal_website/sitemap.xml
+Sitemap: https://cuculich.me/sitemap.xml
