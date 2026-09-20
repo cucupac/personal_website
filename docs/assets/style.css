@@ -13,7 +13,7 @@ h3 { font-size: 1.38rem; margin: 0 0 12px; }
 p { margin: 0 0 18px; }
 .site-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 28px 0 20px; border-bottom: 1px solid var(--rule); }
 .site-name { color: var(--ink); text-decoration: none; font-size: 1.12rem; }
-nav { display: flex; gap: 28px; }
+nav { display: flex; gap: 28px; margin-left: auto; }
 nav a { text-decoration: none; padding: 6px 0; }
 nav a[aria-current] { color: var(--ink); border-bottom: 1px solid; }
 main { padding: 58px 0 64px; min-height: 65vh; }
