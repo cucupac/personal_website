@@ -18,6 +18,7 @@ nav a { text-decoration: none; padding: 6px 0; }
 nav a[aria-current] { color: var(--ink); border-bottom: 1px solid; }
 main { padding: 58px 0 64px; min-height: 65vh; }
 .introduction { margin-bottom: 56px; }
+.introduction h2 { font-size: 1em; font-weight: 400; font-style: italic; margin-bottom: 8px; }
 .affiliation { line-height: 1.5; }
 .interests { max-width: 620px; margin-top: 28px; }
 .separator { margin: 0 12px; color: var(--muted); }
