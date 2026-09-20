@@ -64,3 +64,11 @@ dd { margin: 0; overflow-wrap: anywhere; }
   main { padding: 0; }
   a { color: inherit; }
 }
+
+.profile-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:28px; }
+.profile-heading h1 { margin:0; }
+.profile-subtitle { margin:10px 0 0; font-size:0.88em; line-height:1.5; font-weight:400; color:var(--muted); }
+.portrait { flex-shrink:0; width:147px; height:192.23px; object-fit:cover; border-radius:0; margin-top:10px; }
+@media(max-width:540px) { .profile-heading { gap:16px; } .profile-heading h1 { font-size:clamp(1.5rem, 6vw, 2.1rem); } .portrait { width:125px; height:164.75px; margin-top:8px; } }
+@media(max-width:540px) { .site-header { flex-wrap:wrap; } nav { gap:18px; } }
+.social-links { display:flex; gap:10px; margin-top:14px; } .social-links a { display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border:1px solid var(--rule); border-radius:3px; color:var(--muted); } .social-links a:hover { color:var(--link); } .social-links svg { width:18px; height:18px; }
