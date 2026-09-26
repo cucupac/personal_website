@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cuculich.me/sitemap.xml
+Sitemap: https://adamcuculich.com/sitemap.xml

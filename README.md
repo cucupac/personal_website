@@ -8,7 +8,7 @@ From this repository, run `python3 -m http.server 8000 --directory docs`, then o
 
 ## Hosting
 
-Publish `main` → `/docs` with GitHub Pages. The configured custom domain is https://cuculich.me/.
+Publish `main` → `/docs` with GitHub Pages. The configured custom domain is https://adamcuculich.com/.
 
 ## Research
 
@@ -18,11 +18,11 @@ Discovery metadata includes Google Scholar citation tags, ScholarlyArticle JSON-
 
 ## Custom domain
 
-GitHub Pages is configured for `cuculich.me` through `docs/CNAME`. Citation, canonical, structured-data, and sitemap URLs use this domain.
+GitHub Pages is configured for `adamcuculich.com` through `docs/CNAME`. Citation, canonical, structured-data, and sitemap URLs use this domain.
 
-DNS setup in GoDaddy and HTTPS activation are pending. Point the apex A records to GitHub Pages and `www` to `cucupac.github.io`. Preserve existing email MX, SPF, DKIM, and DMARC records. Once DNS resolves, enable Enforce HTTPS and verify every page and the PDF.
+GoDaddy DNS points to GitHub Pages. HTTPS certificate provisioning must complete after changing the custom domain. Point the apex A records to GitHub Pages and `www` to `cucupac.github.io`. Preserve existing email MX, SPF, DKIM, and DMARC records. Once DNS resolves, enable Enforce HTTPS and verify every page and the PDF.
 
-Domain ownership can also be verified in GitHub's account Pages settings using its generated TXT record. Submit `https://cuculich.me/sitemap.xml` in Google Search Console for regular Google Search; Scholar uses its own indexing process.
+Domain ownership can also be verified in GitHub's account Pages settings using its generated TXT record. Submit `https://adamcuculich.com/sitemap.xml` in Google Search Console for regular Google Search; Scholar uses its own indexing process.
 
 ## Licensing
 
